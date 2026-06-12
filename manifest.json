@@ -35,6 +35,13 @@
     "file": "writing/poems/a-girl-with-synesthesia.txt"
   },
   {
+    "title": "A Poem About Spring",
+    "slug": "a-poem-about-spring",
+    "type": "poems",
+    "date": "2024-05-17",
+    "file": "writing/poems/a-poem-about-spring.txt"
+  },
+  {
     "title": "Quick Moments From a Room in Rhode Island",
     "slug": "quick-moments-from-a-room-in-rhode-island",
     "type": "poems",
