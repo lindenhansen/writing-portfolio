@@ -137,6 +137,10 @@ main {
 }
 
 /* Poems */
-.piece-body.poem {
-  white-space: pre-line;
+.piece-body.poem p {
+  margin-bottom: 1.95em;
+}
+
+.piece-body.poem p:last-child {
+  margin-bottom: 0;
 }
