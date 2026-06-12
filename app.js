@@ -98,7 +98,7 @@ async function showPiece(section, slug) {
   body.className = section === 'poems' ? 'piece-body poem' : 'piece-body';
 
   if (section === 'poems') {
-    body.innerHTML = renderPoem(text);
+    body.textContent = text.trim();
   } else {
     body.innerHTML = marked.parse(text);
   }
