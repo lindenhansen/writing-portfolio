@@ -1,0 +1,156 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text: #1a1a1a;
+  --muted: #999;
+  --bg: #fafaf8;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'EB Garamond', Georgia, serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ── Navigation ── */
+
+header {
+  padding: 3rem 2rem 0;
+  text-align: center;
+}
+
+nav {
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+nav a:hover {
+  color: var(--text);
+}
+
+nav a.active {
+  color: var(--text);
+}
+
+nav .sep {
+  color: var(--muted);
+  margin: 0 0.75rem;
+  user-select: none;
+}
+
+/* ── Main content ── */
+
+main {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 4.5rem 2rem 8rem;
+}
+
+/* ── List view ── */
+
+.piece-list {
+  list-style: none;
+  text-align: center;
+}
+
+.piece-list li + li {
+  margin-top: 2.75rem;
+}
+
+.piece-list a {
+  font-size: 1.1rem;
+  color: var(--text);
+  text-decoration: none;
+  display: block;
+  line-height: 1.4;
+  transition: opacity 0.15s;
+}
+
+.piece-list a:hover {
+  opacity: 0.45;
+}
+
+.piece-list .date {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.35rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* ── Piece view ── */
+
+.piece-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.piece-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.piece-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.6rem;
+}
+
+/* Prose */
+.piece-body {
+  font-size: 1.05rem;
+  line-height: 1.95;
+}
+
+.piece-body p {
+  margin-bottom: 1.4em;
+}
+
+.piece-body p:last-child {
+  margin-bottom: 0;
+}
+
+.piece-body em {
+  font-style: italic;
+}
+
+.piece-body strong {
+  font-weight: 500;
+}
+
+/* Poems */
+.piece-body.poem {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.piece-body.poem p {
+  margin-bottom: 1.6em;
+}
+
+.piece-body.poem p:last-child {
+  margin-bottom: 0;
+}

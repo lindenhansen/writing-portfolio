@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Example Poem",
+    "slug": "example-poem",
+    "type": "poems",
+    "date": "2025-03-10",
+    "file": "writing/poems/example-poem.txt"
+  },
+  {
+    "title": "Example Prose",
+    "slug": "example-prose",
+    "type": "prose",
+    "date": "2025-01-22",
+    "file": "writing/prose/example-prose.md"
+  }
+]
