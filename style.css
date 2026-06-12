@@ -139,11 +139,11 @@ main {
 /* Poems */
 .piece-body.poem {
   font-size: 1.05rem;
-  line-height: 1.75;
+  line-height: 1.15;
 }
 
 .piece-body.poem p {
-  margin-bottom: 1.6em;
+  margin-bottom: 1.15em;
 }
 
 .piece-body.poem p:last-child {
