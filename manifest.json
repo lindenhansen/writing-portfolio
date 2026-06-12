@@ -1,16 +1,9 @@
 [
   {
-    "title": "Example Poem",
-    "slug": "example-poem",
-    "type": "poems",
-    "date": "2025-03-10",
-    "file": "writing/poems/example-poem.txt"
-  },
-  {
-    "title": "Example Prose",
-    "slug": "example-prose",
+    "title": "What Girls Are For",
+    "slug": "what-girls-are-for",
     "type": "prose",
-    "date": "2025-01-22",
-    "file": "writing/prose/example-prose.md"
+    "date": "2025-06-08",
+    "file": "writing/prose/what-girls-are-for.md"
   }
 ]
