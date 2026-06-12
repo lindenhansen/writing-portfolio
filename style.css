@@ -114,14 +114,14 @@ main {
   margin-top: 0.6rem;
 }
 
-/* Prose */
+/* Prose + Poems */
 .piece-body {
   font-size: 1.05rem;
   line-height: 1.95;
 }
 
 .piece-body p {
-  margin-bottom: 1.4em;
+  margin-bottom: 1.95em;
 }
 
 .piece-body p:last-child {
@@ -137,15 +137,6 @@ main {
 }
 
 /* Poems */
-.piece-body.poem {
-  font-size: 1.05rem;
-  line-height: 1.15;
-}
-
 .piece-body.poem p {
-  margin-bottom: 1.15em;
-}
-
-.piece-body.poem p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 1.95em;
 }
