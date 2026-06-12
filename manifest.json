@@ -12,5 +12,12 @@
     "type": "prose",
     "date": "2024-03-12",
     "file": "writing/prose/a-toyota-is-a-rose.md"
+  },
+  {
+    "title": "Waiting Room",
+    "slug": "waiting-room",
+    "type": "prose",
+    "date": "2023-10-09",
+    "file": "writing/prose/waiting-room.md"
   }
 ]
