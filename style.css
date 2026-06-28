@@ -148,3 +148,10 @@ main {
 .piece-body.poem .indented {
   padding-left: 2em;
 }
+
+.piece-body .section-break {
+  text-align: center;
+  color: var(--muted);
+  margin: 0.25em 0;
+  font-size: 0.9rem;
+}
