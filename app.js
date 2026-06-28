@@ -113,10 +113,16 @@ function renderPoem(text) {
   const stanzas = text.trim().split(/\n{2,}/);
   return stanzas
     .map(stanza => {
-      const lines = stanza
-        .split('\n')
-        .map(l => escapeHtml(l))
-        .join('<br>');
+      const trimmed = stanza.trim();
+      if (trimmed.startsWith('*') && trimmed.endsWith('*') && trimmed.length > 2) {
+        const inner = trimmed.slice(1, -1);
+        const content = inner.split('\n').map(l => escapeHtml(l.trim())).join(' ');
+        return `<p><em>${content}</em></p>`;
+      }
+      const lines = stanza.split('\n').map(l => {
+        if (l.startsWith('\t')) return `<span class="indented">${escapeHtml(l.slice(1))}</span>`;
+        return escapeHtml(l);
+      }).join('<br>');
       return `<p>${lines}</p>`;
     })
     .join('');

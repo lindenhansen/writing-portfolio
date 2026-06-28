@@ -144,3 +144,7 @@ main {
 .piece-body.poem p:last-child {
   margin-bottom: 0;
 }
+
+.piece-body.poem .indented {
+  padding-left: 2em;
+}
