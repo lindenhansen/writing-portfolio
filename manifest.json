@@ -1,5 +1,12 @@
 [
   {
+    "title": "3D PRINTER",
+    "slug": "3d-printer",
+    "type": "poems",
+    "date": "2026-06-22",
+    "file": "writing/poems/3d-printer.txt"
+  },
+  {
     "title": "What do you even get at the bodega?",
     "slug": "what-do-you-even-get-at-the-bodega",
     "type": "poems",
