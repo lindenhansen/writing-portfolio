@@ -54,6 +54,11 @@ main {
   max-width: 580px;
   margin: 0 auto;
   padding: 4.5rem 2rem 8rem;
+  transition: max-width 0s;
+}
+
+main.wide {
+  max-width: 820px;
 }
 
 /* ── List view ── */

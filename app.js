@@ -60,6 +60,7 @@ function showList(section) {
 
   app.innerHTML = '';
   app.appendChild(ul);
+  document.querySelector('main').classList.remove('wide');
 }
 
 async function showPiece(section, slug) {
@@ -106,6 +107,7 @@ async function showPiece(section, slug) {
   app.innerHTML = '';
   app.appendChild(header);
   app.appendChild(body);
+  document.querySelector('main').classList.toggle('wide', !!piece.wide);
   window.scrollTo(0, 0);
 }
 
