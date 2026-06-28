@@ -100,7 +100,7 @@ One second passes— Is the reek of human stench too strong? Is there forgivenes
 
 <div class="section-break">❖</div>
 
-All my friends have gone now and it's just me, my boots and the dirt road. But at the end of the day that's what it's always been. I spend the last month before California topless under the sun re-reading The Road and other books about hungry addicts. Listening to Patty Griffin.
+All my friends have gone now and it's just me, my boots and the dirt road. But at the end of the day that's what it's always been. I spend the last month before California topless under the sun re-reading *The Road* and other books about hungry addicts. Listening to Patty Griffin.
 
 *But I wonder where you are*
 *And if the pain ends when you die*
