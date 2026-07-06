@@ -21,6 +21,13 @@
     "file": "writing/poems/3d-printer.txt"
   },
   {
+    "title": "last night's fire",
+    "slug": "last-nights-fire",
+    "type": "poems",
+    "date": "2026-06-29",
+    "file": "writing/poems/last-nights-fire.txt"
+  },
+  {
     "title": "What do you even get at the bodega?",
     "slug": "what-do-you-even-get-at-the-bodega",
     "type": "poems",
