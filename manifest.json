@@ -1,5 +1,12 @@
 [
   {
+    "title": "skip",
+    "slug": "skip",
+    "type": "poems",
+    "date": "2026-08-26",
+    "file": "writing/poems/skip.txt"
+  },
+  {
     "title": "soft sound of trees",
     "slug": "soft-sound-of-trees",
     "type": "poems",
