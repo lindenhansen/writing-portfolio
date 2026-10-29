@@ -1,5 +1,12 @@
 [
   {
+    "title": "One million beers",
+    "slug": "one-million-beers",
+    "type": "poems",
+    "date": "2026-10-28",
+    "file": "writing/poems/one-million-beers.txt"
+  },
+  {
     "title": "Elk Story",
     "slug": "elk-story",
     "type": "prose",
